@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: cursive;
+    font-size: 14pt;
+}
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header, footer {
+	padding: 1em;
+	color: white;
+	background-color: rgba(23, 23, 23, 0.4);
+	clear: left;
+	text-align: center;
+}
+
+		/* =========== navigation bar  ========= */
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(225, 225, 225, 0.6);
+	border: 1px solid rgba(23, 23, 23, 0.6);
+	
+}
+
+ul.menu li {
+	float: left;
+}
+
+ul.menu li a {
+	display: block;
+	color: rgba(0, 0, 0, 1);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+			
+		/* ========== main content ============== */
+div.content {
+	color: #ddd;
+	border: 1px solid gray;
+	background-color: rgba(23, 23, 23, 0.4);
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+}
+img {
+    border-radius: 6px 6px 6px 6px;
+	background-attachment: fixed;
+	max-width: 100%;
+	height: auto;
+}
+			
+			
+		/* ======== sidebar ============ */
+div.side {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+	border: 1px solid gray;
+	background-color: rgba(23, 23, 23, 0.4);
+	
+}
+
+div.side ul {
+	list-style-type: none;
+	padding: 0;
+	
+	
+}
+			   
+div.side ul a {
+	text-decoration: none;
+	color: rgba(225, 225, 225, 1);
+}
